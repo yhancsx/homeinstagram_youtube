@@ -1,0 +1,19 @@
+{
+  "name": "homeinstagram_youtube_server",
+  "version": "1.0.0",
+  "description": "homeinstagram youtube vidieo administration program server application",
+  "main": "index.js",
+  "author": "yhancsx <yhancsx@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc upload_video.ts && node upload_video.js"
+  },
+  "dependencies": {
+    "@types/node": "^15.12.4",
+    "destroyer": "^0.0.0",
+    "google-auth-library": "^7.1.2",
+    "googleapis": "^78.0.0",
+    "opn": "^6.0.0",
+    "typescript": "^4.3.4"
+  }
+}
